@@ -1,23 +1,11 @@
-/* Misc */
 import React from 'react';
-import "./Styling/main.css";
-
-/* Routing */
-import ReactDOM from "react-dom";
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
-
-/* Pages */
-import Home from "./Pages/Home"
+import ReactDOM from 'react-dom';
+import './Styling/main.css';
+import App from './App';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home />} />
-        </Routes>
-    </BrowserRouter>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root')
 );

@@ -1,1 +1,17 @@
-/*# sourceMappingURL=main.css.map */
+/* Pages */
+body {
+  background-image: url(./Misc/Hexagon.svg);
+}
+
+* {
+  font-family: oswald;
+}
+
+p {
+  color: white;
+}
+
+@font-face {
+  font-family: oswald;
+  src: url("./Misc/Oswald.ttf");
+}/*# sourceMappingURL=main.css.map */
