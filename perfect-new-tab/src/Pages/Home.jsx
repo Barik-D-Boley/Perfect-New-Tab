@@ -11,7 +11,7 @@ function Home() {
         <div>
             <p id="clock">{clock}</p>
             <form action="http://google.com/search">
-                <input type="text" id="searchBar" autoComplete="off" spellCheck="false" placeholder="Search" autoFocus />
+                <input type="text" id="searchBar" name="q" autoComplete="off" spellCheck="false" placeholder="Search" autoFocus />
             </form>
         </div>
     )
